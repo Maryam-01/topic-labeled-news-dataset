@@ -65,10 +65,25 @@ def clean_news(news):
 
     news= news[news["lang"] == "en"]
     print("after keeping english rows:", news.shape)
+    news = news.dropna(subset=["title", "link", "topic", "lang"])
 
     news = news[news["title"] != ""]
     print("after removing empty titles:", news.shape)
     
+    news = news[news["topic"] != ""]
+    print("after removing empty topic:", news.shape)
+
+    news = news[news["domain"] != ""]
+    print("after removing empty domain:", news.shape)
+
+    news = news[news["lang"] != ""]
+    print("after removing empty lang:", news.shape)
+
+    news = news[news["published_date"] != ""]
+    print("after removing empty published_date:", news.shape)
+
+    news = news[news["link"] != ""]
+    print("after removing empty link:", news.shape)
 
     news["published_date"] = pd.to_datetime(
         news["published_date"],
