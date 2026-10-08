@@ -1,5 +1,5 @@
 # topic-labeled-news-dataset
-100k+ topic labeled news articles published from thousands of news websites
+Topic-labeled news articles published from a pool of thousands of news websites from Kaggle Dataset
 
 
 
@@ -13,7 +13,7 @@ We contribute a lot to the open-source community by sharing our work (find other
 
 ### Content
 
-We collected over 100k articles for 8 different news topics
+We collected articles for 8 different news topics
 `BUSINESS`  |       15000
 `ENTERTAINMENT`  |  15000
 `HEALTH`      |     15000
