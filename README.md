@@ -1,5 +1,5 @@
 # topic-labeled-news-dataset
-Topic-labeled news articles published from a pool of thousands of news websites from Kaggle Dataset
+100k topic labeled news articles published from thousands of news websites
 
 
 
